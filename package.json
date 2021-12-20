@@ -1,0 +1,22 @@
+{
+  "name": "and-exercise",
+  "version": "1.0.0",
+  "main": "SolutionAND.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jest": "^27.4.5",
+    "jest-sorted": "^1.0.12",
+    "mathjs": "^10.0.0"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-sorted"
+    ]
+  }
+}
